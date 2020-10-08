@@ -1,0 +1,87 @@
+body{
+    font-family: 'Crimson Text', serif;
+    background-image: url("https://images.unsplash.com/photo-1522918279596-eb92d4d75259?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=60");
+}
+.navbar{
+
+    display: flex;
+    align-items:center;
+    padding: 20px;
+    font-family: copperplate;
+    color: #d9ecf2;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    font-size: 24px;
+    padding-left: 400px;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block ;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none ;
+    color: #333
+}
+.container {
+    background-color :#d9ecf2;
+    color : #777;
+    width : 85%;;
+    margin : auto;
+    border-color : #020202;
+    padding : 34px;
+}
+.forms {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 23px;
+    text-align : center;
+    color : #777;
+    text-align : center;
+}  
+h1 {
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;     
+    font-size : 43px;
+    color : #777;
+}
+h3 {
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 17px;
+    text-align : center;
+    font-style : italic;
+    color : #777;
+}
+a {
+    font-size : 30px;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color : #fff;
+}
+a:hover {
+    color : #0f3057;
+}
+a {
+    color : #f6f2ee;
+}
+a:active {
+    color : #fff;
+}
+legend {
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 28px;
+}
+.submit {
+    height : 30px;
+    width : 88px;
+    color :#020202;
+    text-align: center;
+
+}
+.submit:hover {
+    color :#66bfbf;
+    
+}  
